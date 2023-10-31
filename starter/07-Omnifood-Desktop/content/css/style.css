@@ -52,15 +52,15 @@ body {
   color: #555;
 }
 
-.test {
-  background-color: red;
-  padding: 100px;
-  /* width: 1000px; */
-  max-width: 1000px;
+.hero {
+  /* width: 1300px; */
+  max-width: 130rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: blueviolet;
+}
 
-  max-width: 50rem;
-  padding: 4rem;
-  font-size: 2rem;
-  color: #fff;
-  /* 1 rem = 16px -> 50rem = 800px */
+.hero-img {
+  width: 100%;
 }
